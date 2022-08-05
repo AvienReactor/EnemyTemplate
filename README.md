@@ -47,12 +47,14 @@ Then click on it to open.
 **Third, Lets install the AssetBundle Browser/ Skip if you already have it on the right of your screen.**
 Within the Unity Project head to window > Package Manager at the top and install *Asset Bundle Browser*.
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1004978260565831720/unknown.png)
+
 Next go to Window > AssetBundle Browser. I like to keep mine on the right side of my Unity Editor.
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1004991570677858335/unknown.png)
 
 **Fourth, Lets setup the AssetBundle Browser.**
 Set the Output Path to the inside of EnemyTemplateMod
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1004987641416142849/unknown.png)
+
 Next name your AssetBundle, mine is *gunpupassetbundle*. You can't use *myassetbundle* as its name.
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1004993769696940072/unknown.png)
 
@@ -60,6 +62,7 @@ Next name your AssetBundle, mine is *gunpupassetbundle*. You can't use *myassetb
 **First, make sure your model is import ready**
 When your model is done and ready for export I reccomend using these setting. This is what our team currently uses.
 The type of file will be **.FBX**
+
 ![](https://cdn.discordapp.com/attachments/327602551518265344/1004998747475947520/unknown.png)
 ![](https://cdn.discordapp.com/attachments/327602551518265344/1004998766790713344/unknown.png)
 ![](https://cdn.discordapp.com/attachments/327602551518265344/1004998784096403506/unknown.png)
@@ -68,12 +71,16 @@ The type of file will be **.FBX**
 **Second, importing the model and its parts**
 Now head back to the Unity Project. In the Project window at the bottom drag'n'drop the FBX of the model. I reccomend making a new folder for every enemy you make for easier modifying in the future (just like the *Gunpuppy* folder below).
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005000224038735952/unknown.png)
+
 Now import all the other parts of them for example textures.
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005003242289250334/unknown.png)
+
 Next make a material for the texture. Just **Right-click** the empty space in the window, go under **Create > Material**. Name the material what you want and drag the texture into the Albedo slot. If there are transparentises set the **Shader** to **Fake RoR/Hopoo Games/Deferred/HGStandard** and **check Cutout**.
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005010947007578203/unknown.png)
+
 Now click on your imported enemy model and head to the inspector on the right. Click the **Materials** tab and drag'n'drop the material into the slot. Then hit **Apply**.
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005014389151236137/unknown.png)
+
 Great now we have a model with its textures applied.
 
 **Third, setup the prefab gameobjects**
