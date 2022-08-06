@@ -1,0 +1,44 @@
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.AssemblyReference.cache
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.GeneratedMSBuildEditorConfig.editorconfig
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.AssemblyInfoInputs.cache
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.AssemblyInfo.cs
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.CoreCompileInputs.cache
+C:\Users\ZixNoms\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\GithubrepoModdingCenter\BepInEx\plugins\netstandard2.0\HenryMod.deps.json
+C:\Users\ZixNoms\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\GithubrepoModdingCenter\BepInEx\plugins\netstandard2.0\HenryMod.dll
+C:\Users\ZixNoms\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\GithubrepoModdingCenter\BepInEx\plugins\netstandard2.0\HenryMod.pdb
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.CopyComplete
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.dll
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.pdb
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\bin\Debug\netstandard2.0\HenryMod.deps.json
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\bin\Debug\netstandard2.0\HenryMod.dll
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\bin\Debug\netstandard2.0\HenryMod.pdb
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\bin\Debug\netstandard2.0\MMHOOK_RoR2.dll
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\bin\Debug\netstandard2.0\R2API.dll
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\bin\Debug\netstandard2.0\R2API.xml
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.AssemblyReference.cache
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.GeneratedMSBuildEditorConfig.editorconfig
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.AssemblyInfoInputs.cache
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.AssemblyInfo.cs
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.CoreCompileInputs.cache
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.CopyComplete
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.dll
+E:\RiskofRain2 Modding\All mods\Ror2TestingGrounds\HenryMod\obj\Debug\netstandard2.0\HenryMod.pdb
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.AssemblyReference.cache
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\HenryMod\obj\Debug\netstandard2.0\HenryMod.GeneratedMSBuildEditorConfig.editorconfig
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\HenryMod\obj\Debug\netstandard2.0\HenryMod.AssemblyInfoInputs.cache
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\HenryMod\obj\Debug\netstandard2.0\HenryMod.AssemblyInfo.cs
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.CoreCompileInputs.cache
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.CopyComplete
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\HenryMod\obj\Debug\netstandard2.0\HenryMod.dll
+M:\Ror2Mods\TestingGrounds\HenryTutorial-master\HenryMod\obj\Debug\netstandard2.0\HenryMod.pdb
+E:\RiskofRain2 Modding\All mods\Scratch Setup\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.AssemblyReference.cache
+E:\RiskofRain2 Modding\All mods\Scratch Setup\HenryMod\obj\Debug\netstandard2.0\HenryMod.GeneratedMSBuildEditorConfig.editorconfig
+E:\RiskofRain2 Modding\All mods\Scratch Setup\HenryMod\obj\Debug\netstandard2.0\HenryMod.AssemblyInfoInputs.cache
+E:\RiskofRain2 Modding\All mods\Scratch Setup\HenryMod\obj\Debug\netstandard2.0\HenryMod.AssemblyInfo.cs
+E:\RiskofRain2 Modding\All mods\Scratch Setup\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.CoreCompileInputs.cache
+E:\RiskofRain2 Modding\All mods\Scratch Setup\HenryMod\obj\Debug\netstandard2.0\HenryMod.dll
+E:\RiskofRain2 Modding\All mods\Scratch Setup\HenryMod\obj\Debug\netstandard2.0\HenryMod.pdb
+C:\Users\Jared\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\RiskofMods2\BepInEx\plugins\Debug\netstandard2.0\HenryMod.deps.json
+C:\Users\Jared\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\RiskofMods2\BepInEx\plugins\Debug\netstandard2.0\HenryMod.dll
+C:\Users\Jared\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\RiskofMods2\BepInEx\plugins\Debug\netstandard2.0\HenryMod.pdb
+E:\RiskofRain2 Modding\All mods\Scratch Setup\HenryMod\obj\Debug\netstandard2.0\HenryMod.csproj.CopyComplete
