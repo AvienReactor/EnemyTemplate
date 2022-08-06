@@ -1,18 +1,19 @@
 # Enemy Template
-# ==============
+****
 
 ## Welcome
-### ---------------
+****
 
-Hello I am Avien I am a Dev of the [OopsAllLemurians](https://thunderstore.io/package/OopsAllLemurians/) Team. Recently Mint was trying to find out a way with to make enemies in ROR2. It took about 3 days to get  things working at a basic level. We do plan on improving upon this Template  until it reaches all areas of what we find is needs in creating enemies (can be found under Plans for the Future below). I, Avien, will be mantaining the Enemy Template. I am in the Risk of Rain 2 Modding discord server, my name is Avien (OopsAllLemurians Team) in the server. **The setup guide is down below.**
+Hello I am Avien I am a Dev of the [OopsAllLemurians](https://thunderstore.io/package/OopsAllLemurians/) Team. Recently Mint was trying to find out a way with to make enemies in ROR2. It took about 3 days to get  things working at a basic level. We do plan on improving upon this Template  until it reaches all areas of what we find is needs in creating enemies (can be found under Plans for the Future below). I, Avien, will be mantaining the Enemy Template. I am in the Risk of Rain 2 Modding discord server, my name is Avien (OopsAllLemurians Team) in the server. **The setup guide is down below. Please read the Lisence at the very bottom**
 
 ## Recommendations
-### -------------------------
+****
 
 - Have experience with making skills.
 - Have used Robs Template before, if not its okay.
 
 ## Features
+****
 
 - Can have multiple enemies in the same project
 - Currently allows for spawning of normal enemies
@@ -22,15 +23,19 @@ Hello I am Avien I am a Dev of the [OopsAllLemurians](https://thunderstore.io/pa
 - Can handle multiple skinnedmeshrenderers
 
 ## Plans for the future
+****
 
 - Add handling Bosses
 - Add handling MiniBosses
 - Add handling Elites?
 
 ## How it works/Setup
+****
 
 Most of what you need to do is similar to [Henerymod Template](https://github.com/ArcPh1r3/HenryTutorial) with some diffrences.
+
 ### Step 1, Setting up Unity
+
 **First, Lets install Unity Version**
 
 For this project you will need Unity Version (2019.4.26f1). Heres a link to the Unity Download Archive. [(Get Unity Version)](https://unity3d.com/get-unity/download/archive)
@@ -41,6 +46,7 @@ Head to Unity 2019.X and scroll down until you see. ![](https://cdn.discordapp.c
 I personaly use Unity Hub but choose whichever one best works for you and download.
 
 **Second, Lets open the Unity part of the project**
+
 Download the latest Release version of this template above and open it.
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1004987641416142849/unknown.png)
 
@@ -148,13 +154,49 @@ Within this window you should see your **AssetBundle**. Mine is named ***gunpupa
 It's done now you will be able to just repeat **Step 3** everytime you update something in the Unity side of the project.
 
 ### Step 5, Setting up your enemy in the code/ This is the big part
+We will really only be interacting with 4 scripts. This will cover the  enemies: Spawning, Death, Stats, AiDriver, and Skills. Most things are explained within the scripts.
 
+**First, lets update the plugin script**
+In the **EnemyTemplateMod.sln's** Solution Explorer goto **EnemyPlugin.cs**.
+![](https://cdn.discordapp.com/attachments/568616591349252129/1005245331560210534/unknown.png)
 
+So now lets change this to your own. My **MODUID** is *com.Lemurians.EnemyTemplateMod*. Now make it **com.(your author name).(mod name)**. Next change **MODNAME** to your modname. Last set **DEVELOPER_PREFIX** to your (author name).
 
-> The overriding design goal for Markdown's
+**Second, lets update the enemy script**
+In the **Solution Explorer** head to **Modules > Enemies > GunPupEnemy**. This Enemies folder is where  you will put all your enemies.
+![](https://cdn.discordapp.com/attachments/568616591349252129/1005248107438690376/unknown.png)
+
+Everything within this file is explained in the code. **Duplicate this file if  you want to add more enemies**.
+**For more information:**
+- Stats found on line 46
+- Meshrenderer found on line 81
+- SpawnCard found on line 103
+- EnemySpawning found on line 127
+- AISkillDrivers found on line 138
+- Skills found on line 187 (**Must have 4 skills, no less or it breaks**)
+
+**Third, lets update the enemyspawn script**
+In the **Solution Explorer** head to **Modules > EnemiesSpawn > GunPupSpawn**. This EnemiesSpawn folder is where you will put all your enemies spawns. It handles vfx for when your enemy spawns as well as adding a special animation that they can use. 
+![](https://cdn.discordapp.com/attachments/568616591349252129/1005253928637702164/unknown.png)
+
+To add the animation put it in **public override void OnEnter()**. The **effecPrefab** lets you copy vfx from pre-existing enemies.  **Duplicate this file if  you want to add more enemies (plug in to your enemy script on line 100)**.
+
+**Fourth, lets update the enemydeath script**
+In the **Solution Explorer** head to **Modules > EnemiesDeath > GunPupDeath**. This EnemiesDeath folder is where you will put all your enemies deaths. It handles: vfx for when your enemy death, adding a special animation that they can use, and how money and experience you earn. **Duplicate this file if  you want to add more enemies (plug in to your enemy script on line 97)**.
+![](https://cdn.discordapp.com/attachments/568616591349252129/1005256649428193380/unknown.png)
+
+### Conclusion
+That was alot to go through. Refer back to this when ever you need. I am in College but im open to questions and suggestion on things that you may have conserning the EnemyTemplate. Mint is also open to questions, He's been working on a mod using a beta version of the template already so he has better answers. We are still new to this whole modding thing and have made 3 and soon to be 4 mods. Only 1 was published so far due to passing out quality check for our mods. There should be 2 more mods on the way. Please don't ask about the unpublished mods or when they will be released. You will see them in the **Showcase** channel when the are completed.
+
+## Other works
+****
+
+- [Team Page](https://thunderstore.io/package/OopsAllLemurians/)
+- [Tyto the Swift](https://thunderstore.io/package/OopsAllLemurians/Tyto_the_Swift/)
 
 ## Credit
-### ----------
+
+****
 #### Creators
 - Avien (OopsAllLemurians)
 - Mint (OopsAllLemurians)
@@ -165,10 +207,15 @@ It's done now you will be able to just repeat **Step 3** everytime you update so
 - ClayMen and ArchaicWisp (Moffein)
 
 ## License
+****
 
-MIT
+**This is what I ask of people who want to use this Template.**
+- **You cannot pass this off as your own (really means don't reupload this without modification/ we can make it a fork).**
+- **Give credit to use if you use our Template.**
+- **You can modify this Template as much as you want and use it for whatever you want (forexample if you wanted to make a mod thats NSFW with this, go for it).**
+- **Have fun, lets make Enemy Mods as big as Playable Characters.**
 
-**Free Software, Hell Yeah!**
+****
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
