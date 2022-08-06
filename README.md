@@ -9,8 +9,8 @@ Hello, I am Avien I am a Dev of the [OopsAllLemurians](https://thunderstore.io/p
 ## Recommendations
 ****
 
-- Have experience with making skills.
-- Have used Robs Template before, if not it’s okay.
+- Have experience with making skills, using Unity, Blender, and C#.
+- Have used Rob's HeneryMod Template before (**Highly Recomemnded**).
 
 ## Features
 ****
@@ -32,7 +32,7 @@ Hello, I am Avien I am a Dev of the [OopsAllLemurians](https://thunderstore.io/p
 ## How it works/Setup
 ****
 
-Most of what you need to do is similar to [HeneryMod Template](https://github.com/ArcPh1r3/HenryTutorial) with some differences.
+Most of what you need to do is similar to [HeneryMod Template](https://github.com/ArcPh1r3/HenryTutorial) with some differences. If things don't make sense check them out.
 
 ### Step 1, Setting up Unity
 
@@ -54,7 +54,7 @@ Download the latest Release version of this template above and open it.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1004987641416142849/unknown.png)
 
-You want to open *EnemyTemplateUnityProject* with Unity. For Unity hub it will look like this afterword.
+After selecting the Projects tab in Unity Hub click open and browse for the *EnemyTemplateUnityProject* folder.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1004989166527975474/unknown.png)
 
@@ -72,18 +72,18 @@ Next go to Window > AssetBundle Browser. I like to keep mine on the right side o
 
 **Fourth, Lets setup the AssetBundle Browser.**
 
-Set the Output Path to the inside of EnemyTemplateMod
+Set the **Output Path** (The browse button) to the inside of *EnemyTemplateMod* folder.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1004987641416142849/unknown.png)
 
-Next name your AssetBundle, mine is *gunpupassetbundle*. You can't use *myassetbundle* as its name.
+Next name your AssetBundle, select configure and right-click and rename the bundle. Mine is *gunpupassetbundle*. You can't use *myassetbundle* as its name.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1004993769696940072/unknown.png)
 
 ### Step 2, Setting up a model
-**First, make sure your model is import ready**
+**First, make sure your model is import ready / this is using Blender**
 
-When your model is done and ready for export I recommend using these setting. This is what our team currently uses.
+When your model is done and ready for **export** I recommend using these settings. This is what our team currently uses.
 The type of file will be **.FBX**
 
 ![](https://cdn.discordapp.com/attachments/327602551518265344/1004998747475947520/unknown.png)
@@ -93,19 +93,19 @@ The type of file will be **.FBX**
 
 **Second, importing the model and its parts**
 
-Now head back to the Unity Project. In the Project window at the bottom drag'n'drop the FBX of the model. I recommend making a new folder for every enemy you make for easier modifying in the future (just like the *Gunpuppy* folder below).
+Now head back to the Unity Project. Drag'n'drop the **FBX** of the model into the **Project window** at the bottom. I recommend making a new folder for every enemy you make for easier modifying in the future (just like the *Gunpuppy* folder below).
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005000224038735952/unknown.png)
 
-Now import all the other parts of them for example textures.
+Now import all the other parts of your model for example textures.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005003242289250334/unknown.png)
 
-Next make a material for the texture. Just **Right-click** the empty space in the window, go under **Create > Material**. Name the material what you want and drag the texture into the Albedo slot. If there are transparencies set the **Shader** to **Fake RoR/Hopoo Games/Deferred/HGStandard** and **check Cutout**. Emissive materials work with the standard Unity  shader.
+Next make a material for the texture. Just **Right-click** the empty space in the **Project window** and find **Create > Material**. Name the material what you want, then drag the texture into the Albedo slot (go to the inspector window at the upper right). If there are transparencies set the **Shader** to **Fake RoR/Hopoo Games/Deferred/HGStandard** and **check Cutout**. Emissive materials work with the standard Unity  shader.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005010947007578203/unknown.png)
 
-Now click on your imported enemy model and head to the inspector on the right. Click the **Materials** tab and drag'n'drop the material into the slot. Then hit **Apply**.
+Now click on your imported enemy model and head to the inspector on the right. Click the **Materials** tab and drag'n'drop the material into the slot under **Remapped Materials**. Then hit **Apply**.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005014389151236137/unknown.png)
 
@@ -117,13 +117,13 @@ Okay now let’s drag'n'drop the model into the **Hierarchy**.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005016210280304650/unknown.png)
 
-Now we add two empty gameobjects to the model. Right-click the core model mine is *GunPuppy* and click **create empty**. Now rename them to **HealthBarOrigin and MainHurtbox**. Next move **HeathBarOrigin** above the models head using the green arrow after selecting **HeathBarOrigin**.
+Now we add two empty gameobjects to the model. Right-click the core model, mine is *GunPuppy* and click **create empty**. Now rename them to **MainHurtbox and HealthBarOrigin**. Next move **HeathBarOrigin** above the models head using the green arrow after selecting **HeathBarOrigin**. **Add a capsule collider to the MainHurtbox.**
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005020647946207292/unknown.png)
 
 **Fourth, setup the prefab ChildLocator**
 
-Alright now for the setting up the child locator. Click on the core model and in the inspector hit add component **ChildLocator**.set the size to 3. Add the same names I do to the list.
+Alright now for the setting up the child locator. Click on the core model (in the upper left) and in the inspector hit add component **ChildLocator**.set the size to 3. Add the same names I do to the list.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005026501009354822/unknown.png)
 
@@ -137,20 +137,20 @@ This is what it should look like now.
 
 **Fifth, setup the prefab Animations**
 
-Head back to the core model and add component **Animator**. I would recommend copying **Henry's AnimationController** and building from it if your new to understanding **AnimationControllers** as well as watching some videos on how to use them in Unity. I can't explain much about this part because it really depends on what you want to do. But if you want to just see if your enemy will just spawn first I saw just take gunpuppies AnimationController and use it. this is what our example looks like for the **Animator**.
+Head back to the core model and add component **Animator**. I would recommend copying **Henry's AnimationController** and building from it if your new to understanding **AnimationControllers** as well as watching some videos on how to use them in Unity. I can't explain much about this part because it really depends on what you want to do. But if you want to just see if your enemy will just spawn first I suggest you take *gunpuppies* AnimationController and use it. this is what our example looks like for the **Animator**.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005038666466471966/unknown.png)
 
 **Sixth, save as a prefab**
 
-Drag'n'drop the core model in the **Hierarchy** to the Project window at the bottom. A window will pop-up, you want to hit **Original Prefab**. Now rename it to the name you want to give it but you **must have to have "enm"** in the name. For example mine is **enmGunPupBasic**.
+Drag'n'drop the core model in the **Hierarchy** to the Project window at the bottom. A window will pop-up, you want to hit **Original Prefab**. Now rename it to the name you want to give it but you **must include "enm"** in the name. For example mine is **enmGunPupBasic**.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005040815640412190/unknown.png)
 
 Now the prefab is done.
 
 ### Step 3, Build the AssetBundle
-**I recommend doing this every time.**
+**I recommend doing this every time you edit the Unity Project.**
 
 Head to the right-side window and go to **AssetBundles** and the Configure Tab. Hit the Refresh button to the left of the Configure tab.
 
@@ -172,11 +172,11 @@ Now that we are in the code side of the project lets finish the **AssetBundle**.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005045413478416494/unknown.png)
 
-Within this window you should see your **AssetBundle**. Mine is named ***gunpupassetbundle*** just like it was in the Unity Editor. Now click on it, and you should see a window under it called **Properties**. Then Change **BuildAction** to **Embedded resource**.
+Within this window you should see your **AssetBundle**. Mine is named ***gunpupassetbundle*** just like it was in the Unity Editor. Now click on it, and you should see a window under it called **Properties**. Then Change **BuildAction** to **Embedded resource**. **Delete the gunpupassetbundle very important.**
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005046198161391626/unknown.png)
 
-It's done now you will be able to just repeat **Step 3** every time you update something in the Unity side of the project.
+Now that it's done you will be able to just repeat **Step 3** every time you update something in the Unity side of the project.
 
 ### Step 5, Setting up your enemy in the code/ This is the big part
 We will only be interacting with 4 scripts. This will cover the enemies: Spawning, Death, Stats, AiSkillsDriver, and Skills. Most things are explained within the scripts.
@@ -186,7 +186,7 @@ In the **EnemyTemplateMod.sln's** Solution Explorer go to **EnemyPlugin.cs**.
 
 ![](https://cdn.discordapp.com/attachments/568616591349252129/1005245331560210534/unknown.png)
 
-So now let’s change this to your own. My **MODUID** is *com.Lemurians.EnemyTemplateMod*. Now make it **com.(your author name).(mod name)**. Next change **MODNAME** to your modname. Last set **DEVELOPER_PREFIX** to your (author name).
+So now let’s change this to your own. My **MODUID** is *com.Lemurians.EnemyTemplateMod*. Now make it **com.(your author name).(mod name)**. Next change **MODNAME** to your modname. Last set **DEVELOPER_PREFIX** to your (author name/**Must be all CAPS**). Then lastly the **assetbundle name**.
 
 **Second, lets update the enemy script**
 In the **Solution Explorer** head to **Modules > Enemies > GunPupEnemy**. This Enemies folder is where you will put all your enemies.
