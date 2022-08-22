@@ -92,7 +92,7 @@ The type of file will be **.FBX**
 ![](https://cdn.discordapp.com/attachments/327602551518265344/1004998784096403506/unknown.png)
 ![](https://cdn.discordapp.com/attachments/327602551518265344/1004998802802999306/unknown.png)
 
-**Second, importing the model and its parts**
+**Second, importing the model and its parts / when you see "HeneryAssets" it's called EnemyAssets in your project**
 
 Now head back to the Unity Project. Drag'n'drop the **FBX** of the model into the **Project window** at the bottom. I recommend making a new folder for every enemy you make for easier modifying in the future (just like the *Gunpuppy* folder below).
 
