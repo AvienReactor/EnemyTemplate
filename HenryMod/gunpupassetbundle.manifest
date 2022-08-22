@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1339507019
+CRC: 866149526
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9c8aad7b3e2284660acc18d7fea2b493
+    Hash: 8831a965a280bb163dcfd529f4fae998
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d947c83b2c16d05568c99916f594e092
+    Hash: 9d58306caf634e315e5eca5445fd11ac
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -35,19 +35,43 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/EnemyAssets/Icons/texShotgunIcon.png
+- Assets/EnemyAssets/Icons/texPrimaryIcon.png
+- Assets/EnemyAssets/Icons/texBazookaIcon.png
 - Assets/EnemyAssets/Gunpuppy/Base/gunfire.anim
+- Assets/EnemyAssets/Icons/texMasteryAchievement.png
 - Assets/EnemyAssets/Gunpuppy/Base/gundeath.anim
+- Assets/EnemyAssets/Icons/texPassiveIcon.png
 - Assets/EnemyAssets/Gunpuppy/Base/gunimpact.anim
+- Assets/EnemyAssets/Icons/texDanteAchievement.png
+- Assets/EnemyAssets/Icons/texSecondaryIcon.png
+- Assets/EnemyAssets/Icons/texHenryAchievement.png
+- Assets/EnemyAssets/Icons/texVergilAchievement.png
 - Assets/EnemyAssets/Gunpuppy/Base/animGunPuppy.controller
+- Assets/EnemyAssets/Icons/texScepterSpecialIcon.png
 - Assets/EnemyAssets/Gunpuppy/Base/enmGunPupBasic.prefab
 - Assets/EnemyAssets/Gunpuppy/Base/matGunBasic.mat
+- Assets/EnemyAssets/Icons/texBazookaOutIcon.png
+- Assets/EnemyAssets/Icons/texUziIcon.png
 - Assets/EnemyAssets/Gunpuppy/Base/gundeactivate.anim
+- Assets/EnemyAssets/Icons/texBazookaIconScepter.png
+- Assets/EnemyAssets/Icons/texMainSkin.png
+- Assets/EnemyAssets/Icons/texBoxingGlovesIcon.png
+- Assets/EnemyAssets/Icons/texHenryIcon.png
+- Assets/EnemyAssets/Icons/texUtilityIcon.png
 - Assets/EnemyAssets/Gunpuppy/Base/gunwalk.anim
 - Assets/EnemyAssets/Gunpuppy/Base/gunactivate.anim
 - Assets/EnemyAssets/Gunpuppy/Base/gunspawn.anim
 - Assets/EnemyAssets/Gunpuppy/Base/skin_default.png
+- Assets/EnemyAssets/Icons/texStingerIcon.png
 - Assets/EnemyAssets/Gunpuppy/Base/Gunpuppy.fbx
+- Assets/EnemyAssets/Icons/texPistolIcon.png
+- Assets/EnemyAssets/Icons/texBazookaFireIcon.png
+- Assets/EnemyAssets/Icons/texGrandMasteryAchievement.png
+- Assets/EnemyAssets/Icons/texSpecialIcon.png
 - Assets/EnemyAssets/Gunpuppy/Base/gunidle.anim
 Dependencies: []
