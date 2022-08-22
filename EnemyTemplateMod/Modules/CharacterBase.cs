@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace EnemyTemplateMod.Modules.Characters
 {
-    internal abstract class CharacterBase
+    internal abstract class CharacterBase : CharacterBody
     {
         public static CharacterBase instance;
 

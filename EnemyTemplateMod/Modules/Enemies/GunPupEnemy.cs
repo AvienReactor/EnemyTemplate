@@ -10,6 +10,13 @@ using static EnemyTemplateMod.Modules.Prefabs;
 using EnemyTemplateMod.Modules.Characters;
 using EnemyTemplateMod.Modules.EnemiesDeath;
 using EnemyTemplateMod.Modules.EnemiesSpawn;
+using System.Reflection;
+using System;
+using RoR2.UI.LogBook;
+using RoR2.ExpansionManagement;
+using System.Collections.Generic;
+using RoR2.EntitlementManagement;
+using System.Linq;
 
 namespace EnemyTemplateMod.Modules.Enemies
 {
@@ -17,7 +24,7 @@ namespace EnemyTemplateMod.Modules.Enemies
     {
         /* Hey if you want to test to make sure your character is setup correctly,
          * open the command line in game (ctrl + alt + `).
-         * type in or paste "spawn_body MGunPupB" no quotation marks -GunPuppyBasic is changed with your (enemyName) from below.
+         * type in or paste "spawn_body MGunPupB" no quotation marks -MGunPupB is changed with your (enemyName) from below.
          */
 
         internal static GameObject characterPrefab;
@@ -35,6 +42,11 @@ namespace EnemyTemplateMod.Modules.Enemies
 
         internal static string enemySubtitleNameToken = enemyPrefix + "_GUNPUPBASIC_BODY_SUBTITLE";  //change "GUNPUPBASIC" to the name you want
         internal static string enemySubtitleNameTokenDescription = "The Clockwork Cannon";  //change to the Description you want
+
+        internal static string enemyLoreNameToken = enemyPrefix + "_GUNPUPBASIC_LORE";  //change to the Description you want
+        internal static string enemyLoreNameTokenDescription = "Send Help Plz";  //change to the Description you want
+
+        
 
         internal static void CreateCharacter()
         {
@@ -90,6 +102,14 @@ namespace EnemyTemplateMod.Modules.Enemies
             GunPupEnemy.basicEnemyMaster = (GameObject)CreateMaster(GunPupEnemy.characterPrefab, "BasicGunMaster"); //change "BasicGunMaster" to what you want the EnemyMaster called
             GunPupEnemy.CreateSpawnCard();
 
+            LanguageAPI.Add(enemyNameToken, enemyNameTokenDescription);
+            LanguageAPI.Add(enemySubtitleNameToken, enemySubtitleNameTokenDescription);
+            LanguageAPI.Add(enemyLoreNameToken, enemyLoreNameTokenDescription);
+            LanguageAPI.Add("UNLOCKABLE_LOG_PUP", "Monster Log: GunPup");
+
+            //characterPrefab.AddComponent<DeathRewards>()?.logUnlockableDef;
+            //LogBookController.BuildMonsterEntries();
+
             ModelLocator component = characterPrefab.GetComponent<ModelLocator>();
             component.noCorpse = true;
 
@@ -98,6 +118,8 @@ namespace EnemyTemplateMod.Modules.Enemies
 
             EntityStateMachine component3 = characterPrefab.GetComponent<EntityStateMachine>();
             component3.initialStateType = new SerializableEntityStateType(typeof(GunPupSpawn));    //change GunPupSpawn to your enemies spawn script
+
+            //LogBookController.BuildMonsterEntries();
         }
 
         private static void CreateSpawnCard()
@@ -105,6 +127,7 @@ namespace EnemyTemplateMod.Modules.Enemies
             CharacterSpawnCard characterSpawnCard = ScriptableObject.CreateInstance<CharacterSpawnCard>();
             characterSpawnCard.name = "cscGunPupBasic"; //keep csc infront of the enemy name but change to your enemy name
             characterSpawnCard.prefab = GunPupEnemy.basicEnemyMaster;
+            //characterSpawnCard.prefab = BodyCatalog(GunPupEnemy.basicEnemyMaster);
             characterSpawnCard.sendOverNetwork = true;
             characterSpawnCard.hullSize = 0;
             characterSpawnCard.nodeGraphType = 0;
@@ -182,7 +205,6 @@ namespace EnemyTemplateMod.Modules.Enemies
             return masterObject;
             #endregion
         }
-
 
         #region Skills
         private static void CreateSkills()

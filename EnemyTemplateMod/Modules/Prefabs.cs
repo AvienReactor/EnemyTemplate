@@ -64,6 +64,9 @@ namespace EnemyTemplateMod.Modules
             bodyComponent.portraitIcon = bodyInfo.characterPortrait;
             bodyComponent.bodyColor = bodyInfo.bodyColor;
 
+            //logbook
+            //bodyComponent.portraitIcon = Assets.mainAssetBundle.LoadAsset<Texture>("texHenryIcon");
+
             bodyComponent._defaultCrosshairPrefab = bodyInfo.crosshair;
             bodyComponent.hideCrosshair = false;
             bodyComponent.preferredPodPrefab = bodyInfo.podPrefab;

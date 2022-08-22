@@ -1,0 +1,11 @@
+C:\Users\Jared\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\RiskofMods2\BepInEx\plugins\Debug\netstandard2.0\EnemyTemplateMod.deps.json
+C:\Users\Jared\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\RiskofMods2\BepInEx\plugins\Debug\netstandard2.0\EnemyTemplateMod.dll
+C:\Users\Jared\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\RiskofMods2\BepInEx\plugins\Debug\netstandard2.0\EnemyTemplateMod.pdb
+E:\RiskofRain2 Modding\All mods\Scratch Setup\EnemyTemplateMod\obj\Debug\netstandard2.0\EnemyTemplateMod.csproj.AssemblyReference.cache
+E:\RiskofRain2 Modding\All mods\Scratch Setup\EnemyTemplateMod\obj\Debug\netstandard2.0\EnemyTemplateMod.GeneratedMSBuildEditorConfig.editorconfig
+E:\RiskofRain2 Modding\All mods\Scratch Setup\EnemyTemplateMod\obj\Debug\netstandard2.0\EnemyTemplateMod.AssemblyInfoInputs.cache
+E:\RiskofRain2 Modding\All mods\Scratch Setup\EnemyTemplateMod\obj\Debug\netstandard2.0\EnemyTemplateMod.AssemblyInfo.cs
+E:\RiskofRain2 Modding\All mods\Scratch Setup\EnemyTemplateMod\obj\Debug\netstandard2.0\EnemyTemplateMod.csproj.CoreCompileInputs.cache
+E:\RiskofRain2 Modding\All mods\Scratch Setup\EnemyTemplateMod\obj\Debug\netstandard2.0\EnemyTemplateMod.csproj.CopyComplete
+E:\RiskofRain2 Modding\All mods\Scratch Setup\EnemyTemplateMod\obj\Debug\netstandard2.0\EnemyTemplateMod.dll
+E:\RiskofRain2 Modding\All mods\Scratch Setup\EnemyTemplateMod\obj\Debug\netstandard2.0\EnemyTemplateMod.pdb

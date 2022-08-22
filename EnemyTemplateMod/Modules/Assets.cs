@@ -7,6 +7,7 @@ using System.IO;
 using System.Collections.Generic;
 using RoR2.UI;
 using System;
+using EnemyTemplateMod;
 
 namespace EnemyTemplateMod.Modules
 {
@@ -30,9 +31,9 @@ namespace EnemyTemplateMod.Modules
         private static string[] assetNames = new string[0];
 
         // CHANGE THIS
-        private const string assetbundleName = "gunpupassetbundle";
+        private const string assetbundleName = EnemyPlugin.assetbundleName;
         //change this to your project's name if/when you've renamed it
-        private const string csProjName = "HenryMod";
+        private const string csProjName = EnemyPlugin.csProjName;
 
         internal static void Initialize()
         {
