@@ -25,6 +25,7 @@ Hello, I am Avien I am a Dev of the [OopsAllLemurians](https://thunderstore.io/p
 ## Plans
 ****
 
+- Add Logbook
 - Add handling Bosses
 - Add handling MiniBosses
 - Add handling Elites?
@@ -251,7 +252,7 @@ That was a lot to go through. Refer back to this whenever you need. I am in coll
 ****
 
 **This is what I ask of people who want to use this Template.**
-- **You cannot pass this off as your own (really means don't reupload this without modification/ we can make it a fork).**
+- **Do not re-upload this without modifying it.**
 - **Give credit to use if you use our Template.**
 - **You can modify this Template as much as you want and use it for whatever you want (for example if you wanted to make a mod that’s NSFW with this, go for it).**
 - **Have fun, let’s make Enemy Mods as big as Playable Characters.**
