@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 1339507019
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9c8aad7b3e2284660acc18d7fea2b493
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d947c83b2c16d05568c99916f594e092
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 261c50d8a80898e4ebf2e8e415ea6766, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/EnemyAssets/Gunpuppy/Base/gunfire.anim
+- Assets/EnemyAssets/Gunpuppy/Base/gundeath.anim
+- Assets/EnemyAssets/Gunpuppy/Base/gunimpact.anim
+- Assets/EnemyAssets/Gunpuppy/Base/animGunPuppy.controller
+- Assets/EnemyAssets/Gunpuppy/Base/enmGunPupBasic.prefab
+- Assets/EnemyAssets/Gunpuppy/Base/matGunBasic.mat
+- Assets/EnemyAssets/Gunpuppy/Base/gundeactivate.anim
+- Assets/EnemyAssets/Gunpuppy/Base/gunwalk.anim
+- Assets/EnemyAssets/Gunpuppy/Base/gunactivate.anim
+- Assets/EnemyAssets/Gunpuppy/Base/gunspawn.anim
+- Assets/EnemyAssets/Gunpuppy/Base/skin_default.png
+- Assets/EnemyAssets/Gunpuppy/Base/Gunpuppy.fbx
+- Assets/EnemyAssets/Gunpuppy/Base/gunidle.anim
+Dependencies: []

@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 504, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 123
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +151,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1037
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 56
+  controlID: 60
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 57
+  controlID: 61
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -505,7 +505,9 @@ MonoBehaviour:
   m_InspectTab:
     m_Data:
       m_BundlePaths: []
-      m_BundleFolders: []
+      m_BundleFolders:
+      - path: E:/RiskofRain2 Modding/All mods/Scratch Setup/HenryMod
+        m_ignoredFiles: []
     m_BundleTreeState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
@@ -594,20 +596,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/HenryAssets/Gunpuppy/Base
+    - Assets/EnemyAssets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/HenryAssets/Gunpuppy/Base
+  - Assets/EnemyAssets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\RiskofRain2 Modding\All mods\Scratch Setup\EnemyTemplateUnityProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d0340000
-    m_LastClickedID: 13520
-    m_ExpandedIDs: 000000005a34000064340000b234000000ca9a3b
+    m_SelectedIDs: 7e350000
+    m_LastClickedID: 13694
+    m_ExpandedIDs: 00000000743500007e3500008a3500008c3500009635000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -635,7 +637,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a340000
+    m_ExpandedIDs: 0000000074350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -760,7 +762,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2ae9ffffa4ebffff1cecffff8ceeffff40f0ffff68fbffff
+      m_ExpandedIDs: 68fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -870,7 +872,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.05516854, y: 0.8918467, z: -0.1132519, w: 0.4344481}
     speed: 2
-    m_Value: {x: -0.015288455, y: 0.9532792, z: -0.04895565, w: -0.29770526}
+    m_Value: {x: 0.05516854, y: 0.8918467, z: -0.113251895, w: 0.4344481}
   m_Size:
     m_Target: 1.507395
     speed: 2
