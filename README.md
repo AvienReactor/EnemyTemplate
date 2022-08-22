@@ -79,7 +79,7 @@ Set the **Output Path** (The browse button) to the inside of *EnemyTemplateMod* 
 
 Next name your AssetBundle, select configure and right-click and rename the bundle. Mine is *gunpupassetbundle*. You can't use *myassetbundle* as its name.
 
-![](https://cdn.discordapp.com/attachments/568616591349252129/1004993769696940072/unknown.png)
+![](https://cdn.discordapp.com/attachments/568616591349252129/1011398074989563935/unknown.png)
 
 ### Step 2, Setting up a model
 **First, make sure your model is import ready / this is using Blender**
@@ -92,15 +92,15 @@ The type of file will be **.FBX**
 ![](https://cdn.discordapp.com/attachments/327602551518265344/1004998784096403506/unknown.png)
 ![](https://cdn.discordapp.com/attachments/327602551518265344/1004998802802999306/unknown.png)
 
-**Second, importing the model and its parts / when you see "HeneryAssets" it's called EnemyAssets in your project**
+**Second, importing the model and its parts**
 
 Now head back to the Unity Project. Drag'n'drop the **FBX** of the model into the **Project window** at the bottom. I recommend making a new folder for every enemy you make for easier modifying in the future (just like the *Gunpuppy* folder below).
 
-![](https://cdn.discordapp.com/attachments/568616591349252129/1005000224038735952/unknown.png)
+![](https://cdn.discordapp.com/attachments/568616591349252129/1011397057942130688/unknown.png)
 
 Now import all the other parts of your model for example textures.
 
-![](https://cdn.discordapp.com/attachments/568616591349252129/1005003242289250334/unknown.png)
+![](https://cdn.discordapp.com/attachments/568616591349252129/1011397755735900220/unknown.png)
 
 Next make a material for the texture. Just **Right-click** the empty space in the **Project window** and find **Create > Material**. Name the material what you want, then drag the texture into the Albedo slot (go to the inspector window at the upper right). If there are transparencies set the **Shader** to **Fake RoR/Hopoo Games/Deferred/HGStandard** and **check Cutout**. Emissive materials work with the standard Unity  shader.
 
