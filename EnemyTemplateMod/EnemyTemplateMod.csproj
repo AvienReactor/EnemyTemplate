@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <BaseOutputPath>C:\Users\Jared\AppData\Roaming\Thunderstore Mod Manager\DataFolder\RiskOfRain2\profiles\RiskofMods2\BepInEx\plugins</BaseOutputPath>
+    <BaseOutputPath></BaseOutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
